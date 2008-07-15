@@ -1,0 +1,10 @@
+<% if @news%>
+  <h1>news list</h1>
+  <ul>
+  <%@news.each do |new_post|%>
+    <li><%=link_to new_post.title,{:action=>"content",:content_id=>new_post.id,:return=>url_for({:controller=>controller.controller_name,:action=>controller.action_name}.update(controller.params))}%></li>
+  <%end%>
+  </ul>
+<% else%>
+  <h1>Sorry, there is no news yet</h1>
+<% end%>

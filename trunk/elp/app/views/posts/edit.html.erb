@@ -1,0 +1,32 @@
+<h1>Editing post</h1>
+
+<%= error_messages_for :post %>
+
+<% form_for(@post) do |f| %>
+  <p>
+    <b>Title</b><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <b>Content</b><br />
+    <%= fckeditor_textarea("post", "content", :toolbarSet => "Simple", :width => "80%", :height => "320px" )%>
+  </p>
+
+  <p>
+    <b>Author</b><br />
+    <%= f.text_field :author,:disabled=>true %>
+  </p>
+
+  <p>
+    <b>Tags(seperate with space)</b><br />
+    <%= f.text_field :tag_text %>
+  </p>
+
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @post %> |
+<%= link_to 'Back', posts_path %>

@@ -1,0 +1,18 @@
+
+<h1><%=h @post.title %></h1>
+<hr/>
+
+<p>
+  <%=@post.content %>
+</p>
+<hr/>
+<p><b>Author</b><br/>
+  <%=h @post.author %>
+</p>
+
+<p>
+<b>Tags</b><br/>
+  <%=h @post.tag_text %>
+</p>
+
+<%= link_to '[Back]', :action=>session[:action_name]%>
