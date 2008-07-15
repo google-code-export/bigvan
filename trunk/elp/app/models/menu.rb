@@ -24,7 +24,7 @@ class Menu < ActiveRecord::Base
   def self.get_sub_of_downloads
     [["Text",{:controller=>:downloads,:action=>:text}],
       ["Audio",{:controller=>:downloads,:action=>:audio}],
-      ["Vedio",{:controller=>:downloads,:action=>:video}]
+      ["Video",{:controller=>:downloads,:action=>:video}]
     ]
   end
   def self.get_sub_of_contact
