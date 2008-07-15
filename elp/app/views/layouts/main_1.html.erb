@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML lang=en-AU xml:lang="en" 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>VanceInfo:ELP:<%=controller.action_name%></TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<%= stylesheet_link_tag "main"%>
+<BODY><!-- For non-visual user agents: -->
+<DIV id= "page">
+  <DIV id=header>
+      <DIV class=superHeader>
+
+           <!--<DIV class=logo></DIV>-->
+           <!--<DIV class=right></DIV>-->
+           <DIV class=midHeader>
+           <IMG class=logo src="/images/midlogo.jpg"></IMG>
+           <IMG class=midlogo  
+           src="/images/midlogo1.jpg"></IMG> 
+           <DIV class=bottomlogo>
+           <br />
+            <%
+              odd=""
+              idx=0
+              if @main_menus%>
+                <%@main_menus.each do |menu|%>
+                <%=odd%> <%= link_to menu[0],menu[1]%>
+                <%
+                odd="|"
+                idx=idx+1
+               end%>
+              <%end%>
+
+           </DIV>
+           </DIV>
+           <DIV class=bottomHeader></DIV>
+
+
+       </DIV>
+  </DIV>
+     <DIV class=righttop></DIV>
+    <DIV id=side-bar>
+         <DIV>
+            
+             <IMG class=logo src="/images/mainpic1.jpg"></IMG>
+             <P class=sideBarTitle>Catagory</P>
+            <%if @side_bar_menus -%>
+                        <ul>
+                           <%
+                           sidx=0
+                           @side_bar_menus.each do |submenu|%>
+                             <li><%= link_to submenu[0],submenu[1]%>
+                           <%
+                           sidx=sidx+1
+                           end%>
+                        </ul>
+                       <%else -%>
+                            I don't know what can be put here
+                       <%end -%>  
+             
+          </DIV>
+          <IMG class=leftbottom  src="/images/navbasebg.jpg"></IMG>
+            
+          
+          
+         </DIV>  
+<div class="content">   
+<%=yield%> 
+</div>
+</DIV>
+   
+          <DIV id=footer>
+               
+               <DIV class=left>
+                   <A class=doNotPrint href="http://www.email">Contact Us</A> | <A 
+                     href="http://www.">Licenses 
+                   </A>
+               </DIV> 
+               <DIV class=right>Design by vanceinfo. 
+                    <A title="   " 
+                     href="http://www.vanceinfo.com/">vanceinfo.com.</A> &nbsp
+               </DIV>
+           </DIV>
+     
+</BODY>
+</HTML>

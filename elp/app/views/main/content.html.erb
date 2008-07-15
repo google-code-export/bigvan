@@ -1,0 +1,5 @@
+<H1><div class="wiki_title"><%=@post.title %></div></H1>
+<p><div class="wiki_content"><%=@post.content %><div></p>
+<% if params[:return]%>
+ <%=link_to "[return back]",params[:return]%>
+<% end%>

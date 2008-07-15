@@ -1,0 +1,29 @@
+<h1>Editing wiki</h1>
+
+<%= error_messages_for :wiki %>
+
+<% form_for(@wiki) do |f| %>
+  <p>
+    <b>Title</b><br />
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <b>Content</b><br />
+    <%= fckeditor_textarea("wiki", "content", :toolbarSet => 'Simple', :width => '80%', :height => '320px' )%>
+  </p>
+ <p>
+    <b>Is News</b><br />
+    <%= f.check_box :is_news %>
+  </p>
+<p>
+    <b>Is RDOC</b><br />
+    <%= f.check_box :is_rdoc %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @wiki %> |
+<%= link_to 'Back', wikis_path %>

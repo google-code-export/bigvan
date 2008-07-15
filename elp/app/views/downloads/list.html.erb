@@ -1,0 +1,11 @@
+<%#
+# To change this template, choose Tools | Templates
+# and open the template in the editor.
+%>
+
+<table>
+<tr><th>File Name</th><th></th> <th>Download Link</th></tr>
+<%@file_list.each do |file|%>
+  <tr><td><%=file%></td><td>-------------------</td><td><a href="ftp://elp.vanceinfo.com/download/<%=@foldername%>/<%= ERB::Util.html_escape file%>">download</a></td></tr>
+<%end%>
+</table>

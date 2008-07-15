@@ -1,0 +1,208 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-SIZE: 71%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: black; PADDING-TOP: 0px; FONT-FAMILY: verdana, helvetica, arial, sans-serif; BACKGROUND-COLOR: #fff
+}
+UNKNOWN {
+	FONT-SIZE: 8.5pt
+}
+ACRONYM {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: help; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(153,153,153) 1px dotted
+}
+.titleTip {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; CURSOR: help; PADDING-TOP: 0px; BORDER-BOTTOM: rgb(153,153,153) 1px dotted
+}
+.doNotDisplay {
+	DISPLAY: none
+}
+.smallCaps {
+	FONT-SIZE: 110%; FONT-VARIANT: small-caps
+}
+#page {
+width:100%;
+
+}
+.superHeader {
+	BACKGROUND: #BED0F4; COLOR: white; HEIGHT: 120px
+}
+.superHeader A {
+	PADDING-RIGHT: 0.5ex; PADDING-LEFT: 0.25ex; FONT-SIZE: 91%; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: white; PADDING-TOP: 10px; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.superHeader A:hover {
+	TEXT-DECORATION: underline
+}
+.superHeader .left {
+	LEFT: 0mm; POSITION: absolute; TOP: 0.75ex
+}
+.superHeader .right {
+	RIGHT: 0mm; POSITION: absolute; TOP: 0.75ex
+}
+.superHeader .logo {
+	BACKGROUND: url(/images/logo_top.png); MARGIN-LEFT: 244px; VERTICAL-ALIGN: bottom; WIDTH: 72px; HEIGHT: 24px
+}
+
+.midHeader {
+	BACKGROUND: url(/images/mid_bg.png); COLOR: rgb(39,78,144); BORDER-BOTTOM: #000 0px solid; HEIGHT: 120px
+}
+.midHeader IMG.logo {
+	MARGIN-LEFT: 0px; MARGIN-TOP: 0px; WIDTH: 38%; HEIGHT: 120px
+}
+.midHeader IMG.midlogo {
+       POSITION: absolute; MARGIN-LEFT: -5px; MARGIN-TOP: 25px;HEIGHT: 24px; WIDTH: 62.6%; 
+}
+.midHeader .bottomlogo {
+       POSITION: absolute; BACKGROUND: #88B4CD; MARGIN-LEFT: -8px; MARGIN-TOP: 81px;  HEIGHT: 39px; WIDTH: 62.6%; 
+}
+.midHeader .bottomlogo br{
+        Height: 10px;  WIDTH: 62.6%;
+}
+.midHeader .bottomlogo A{
+       FONT-WEIGHT: bold;FONT-SIZE: 15px; TEXT-DECORATION: none; MARGIN-LEFT: 5px; MARGIN-TOP: 8px;  
+}
+.midHeader .bottomlogo A:hover{
+      COLOR: #BED0F4
+}
+.bottomHeader{
+       BACKGROUND: #3F7EA1;PADDING-RIGHT: 4px;  PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; HEIGHT: 5px; WIDTH: 100%; 
+}
+.headerTitle {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: normal; FONT-SIZE: 40px; PADDING-BOTTOM: 0.25ex; MARGIN: 0px 0px 0px 4mm; PADDING-TOP: 0.25ex
+}
+.subHeader {
+	PADDING-RIGHT: 4px; BORDER-TOP: #004be5 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; MARGIN: 0px; COLOR: white; PADDING-TOP: 7px; BACKGROUND-COLOR: #003399
+}
+.subHeader A {
+	PADDING-RIGHT: 0.75ex; MARGIN-TOP: 8px; PADDING-LEFT: 0.5ex; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: white; PADDING-TOP: 10px; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.subHeader A:hover {
+	COLOR: rgb(253,160,91); TEXT-DECORATION: underline
+}
+.superHeader .highlight {
+	COLOR: rgb(253,160,91); BACKGROUND-COLOR: transparent
+}
+.subHeader .highlight {
+	COLOR: rgb(253,160,91); BACKGROUND-COLOR: transparent
+}
+#side-bar {
+	MARGIN-LEFT: 0px; BORDER-RIGHT: rgb(153,153,153) 0px solid; FLOAT: left; WIDTH: 150px; 
+}
+#side-bar DIV {
+	MARGIN-LEFT: 0px; BORDER-BOTTOM: rgb(153,153,153) 0px solid; BACKGROUND-COLOR: #95BAD5;height:500px; WIDTH: 150px;
+}
+#side-bar IMG.logo{
+	POSITION: absolute; MARGIN-LEFT: 0px; TOP:136px; WIDTH: 150px; HEIGHT: 157px
+}
+
+IMG.leftbottom{
+         vertical-align: bottom; HEIGHT: 150px; WIDTH: 100%; 
+}
+.righttop{
+       background-image: url(../elp-vanceinfo/navbasebg.jpg);MARGIN: 0px; HEIGHT: 24px; WIDTH: 100.65%;  
+}
+.sideBarTitle {
+	POSITION: absolute; TOP: 350px;PADDING-RIGHT: 0px; text-align: center; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px;MARGIN: 0px 0px 0.5em 2.5mm;
+}
+#side-bar UL {
+	POSITION: absolute; TOP: 380px; LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 1.1em; MARGIN: 0px; PADDING-TOP: 0px; LIST-STYLE-TYPE: none
+}
+#side-bar LI {
+	 PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0.1ex; MARGIN: 0px; PADDING-TOP: 0.1ex
+}
+#side-bar A {
+	 Width: 150px; DISPLAY: block; text-align: center;   PADDING-BOTTOM: 0.75em; MARGIN: 0px; COLOR: rgb(0,102,204); PADDING-TOP: 0.75em; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.thisPage {
+	PADDING-RIGHT: 1ex; DISPLAY: block; PADDING-LEFT: 5mm; PADDING-BOTTOM: 0.75em; MARGIN: 0px; COLOR: rgb(0,102,204); PADDING-TOP: 0.75em; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+.thisPage {
+	BORDER-TOP: rgb(153,153,153) 1px solid; PADDING-LEFT: 4mm; COLOR: black; BORDER-BOTTOM: rgb(153,153,153) 1px solid; BACKGROUND-COLOR: white
+}
+#side-bar LI A:hover {
+        COLOR: white; BACKGROUND-COLOR: #3F7EA1; TEXT-DECORATION: none; Width: auto;
+	
+}
+.sideBarText {
+	PADDING-RIGHT: 1.5ex; DISPLAY: block; PADDING-LEFT: 2.5mm; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 1em; LINE-HEIGHT: 1.5em; PADDING-TOP: 0px
+}
+#side-bar .sideBarText A {
+	 PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; TEXT-DECORATION: underline
+}
+#side-bar .sideBarText A:hover {
+	COLOR: rgb(0,102,204); BACKGROUND-COLOR: transparent; TEXT-DECORATION: none;MARGIN: 0px;
+}
+.lighterBackground {
+	BACKGROUND: white
+}
+#main {
+	PADDING-RIGHT: 5mm; PADDING-LEFT: 5mm; BACKGROUND: #fff; PADDING-BOTTOM: 5mm; MARGIN: 0px 235px 0px 15em; BORDER-LEFT: rgb(153,153,153) 1px solid; COLOR: black; LINE-HEIGHT: 1.5em; PADDING-TOP: 0.5mm; TEXT-ALIGN: justify
+}
+#main P {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 1ex 2em; PADDING-TOP: 0px
+}
+#main A {
+	COLOR: rgb(0,102,204); BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#main A:hover {
+	TEXT-DECORATION: none
+}
+#main H1 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1ex; FONT-WEIGHT: bold; FONT-SIZE: 100%; PADDING-BOTTOM: 0.5ex; MARGIN: 3em 0px 0px; COLOR: white; PADDING-TOP: 0.5ex; BACKGROUND-COLOR: rgb(100,135,220)
+}
+#main .topOfPage {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 91%; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 2.5ex 1ex 0px 0px; COLOR: white; PADDING-TOP: 0px; BACKGROUND-COLOR: transparent; TEXT-DECORATION: none
+}
+UNKNOWN {
+	MARGIN: 2.75ex 1ex 0px 0px
+}
+DL {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 1em 1ex 2em; PADDING-TOP: 0px
+}
+DT {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px
+}
+DD {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 2em 2em; PADDING-TOP: 0px
+}
+#footer {
+	background-image: url(../elp-vanceinfo/navbasebg.jpg);CLEAR: both; Width: 100%; PADDING-RIGHT: 0mm; PADDING-LEFT: 2.5mm; FONT-SIZE: 91%; PADDING-BOTTOM: 2.5px; MARGIN: 0px; COLOR: white; PADDING-TOP: 1em; 
+}
+#footer .left {
+	CLEAR: left; FLOAT: left; LINE-HEIGHT: 1.45em
+}
+#footer .right {
+	LINE-HEIGHT: 1.45em; TEXT-ALIGN: right
+}
+#footer A {
+	COLOR: white; BACKGROUND-COLOR: transparent; TEXT-DECORATION: underline
+}
+#footer A:hover {
+	TEXT-DECORATION: none
+}
+#right {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 0px; MARGIN: 0px; WIDTH: 232px; PADDING-TOP: 0px
+}
+#right .title {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+#main .contest H2 {
+	PADDING-RIGHT: 1.5ex; PADDING-LEFT: 1.5ex; FONT-WEIGHT: bold; FONT-SIZE: 100%; PADDING-BOTTOM: 1.5ex; MARGIN: 3em 0px 0px; COLOR: white; PADDING-TOP: 1.5ex; BACKGROUND-COLOR: rgb(100,135,220)
+}
+#main .contest H2 A {
+	FONT-SIZE: 150%; COLOR: #fff
+}
+.spacer {
+	CLEAR: both
+}
+.design A {
+	COLOR: blue
+}
+#right .title {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.links {
+	LINE-HEIGHT: 16px; TEXT-ALIGN: left
+}
+.designextended .title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 100%; HEIGHT: 20px
+}
+.smallheader .title {
+	BACKGROUND: none transparent scroll repeat 0% 0%; WIDTH: 100%; HEIGHT: 20px
+}
